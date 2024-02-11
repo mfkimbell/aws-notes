@@ -3,14 +3,22 @@ aws-notes
 
 AWS
 
+
 # EC2
 
 ## Amazon Linux
+
+```
+ssh -i <path to pem>.pem ec2-user@<public IP>
+```
 ssh -i dpp.pem ec2-user@34.201.245.118
 
 Becoming root: “sudo su -sh”
 
 ## Ubuntu
+```
+ssh -i <path to pem>.pem ubuntu@<public IP>
+```
 
 ssh -i pras-vivo-key-2.pem ubuntu@52.202.26.181
 
